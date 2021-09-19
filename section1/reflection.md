@@ -23,10 +23,11 @@ I think that one thing I would add to this list would be that SuperLearners are 
 
 3. How would you log the string `"Hello World!"` to the console?
 
-`var greeting = "Hello World!";
+```
+var greeting = "Hello World!";
 
 console.log(greeting);`
-
+```
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
 You would use "//". this is useful for describing what a particular piece of code is for, or to break up and organize code into sections for easier reference. if you have a piece of code you want to turn off, you can also  add the "//"to every line you don't want to run.
@@ -35,23 +36,24 @@ You would use "//". this is useful for describing what a particular piece of cod
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
-A variable is something you want your computer program to remember. Let's say you want to greet a user when they log into their website. In order to do that you have to tell the program to remember the name of the person that signed in, like ```var signInName = "Eric";```. This variable can now be reassigned to other names so that whoever is logged in gets a greeting with their name. A variable can describe many other types of things such as words and phrases, numbers, true/false statements, objects, etc.
+A variable is something you want your computer program to remember. Let's say you want to greet a user when they log into their website. In order to do that you have to tell the program to remember the name of the person that signed in, like `var signInName = "Eric";`. This variable can now be reassigned to other names so that whoever is logged in gets a greeting with their name. A variable can describe many other types of things such as words and phrases, numbers, true/false statements, objects, etc.
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
 Sweetwater.com - a music equipment online store.
 Types of variables would be something like:
-
-`var instrument = 'Synthesizer'; // This is a string
+```
+var instrument = 'Synthesizer'; // This is a string
 var manufacturer = 'Korg'; // This is a string
 var numberOfKeys = 49; // This is a number
-var velocityResponse = true; // This is a boolean`
-
+var velocityResponse = true; // This is a boolean
+```
 7. In your own words, explain what concatenation is.
 
 Concatenation is the combination or joining together of two or more components into one string, using a plus (`+`) operator. For instance, you could combine a string, a number, and a boolean all into one string.
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
+
 Back to my Sweetwater.com, I imagine they could use concatenation to display a purchase confirmation message, such as
 "Thank you *Eric* for your order. Your order number is *12345* and your item will be delivered on *10/1*."
 
