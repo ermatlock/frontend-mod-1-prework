@@ -24,9 +24,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
@@ -36,6 +38,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -49,18 +52,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 
 
 //-------------------
@@ -72,21 +80,21 @@ you develop good habits that follow best practice, from now on, use the strict c
 // Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 // Make sure YOU can explain it that way!
 
-console.log(4 < 9);
+console.log(4 < 9); // True. Comparing 4 to 9 and asking if 4 is less than 9.
 //YOU DO: Explain.
 
-var books = 3;
-console.logs(4 < books);
+var books = 3; // books assigned value of 3
+console.log(4 < books); // False. Comparing 4 to books and asking if 4 is less than books. 4 is not less than books = 3.
 // YOU DO: Explain.
 
-var friends = 6;
-var siblings = 2;
-console.log(friends > siblings);
+var friends = 6; // friends assigned value of 6
+var siblings = 2; // siblings assigned value of 2
+console.log(friends > siblings); // True. Asking if friends is greater than siblings. friends = 6 is greater than siblings = 2.
 // YOU DO: Explain.
 
-var attendees = 9;
-var meals = 8;
-console.log(attendees !== meals);
+var attendees = 9; // attendees assigned value of 9
+var meals = 8; // meals assigned value of 8
+console.log(attendees !== meals); // True. Asking if attendees = 9 are not equal to meals = 8.
 // YOU DO: Explain.
 
 
@@ -99,9 +107,9 @@ var finishedHomework = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
-console.log(isHungry && finishedHomework);
+console.log(isHungry && finishedHomework); // false
 // Determine if the user is hungry or has completed their homework
-console.log(isHungry || finishedHomework);
+console.log(isHungry || finishedHomework); // true
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -110,18 +118,18 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats); // true
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark); // false
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark); // true
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && "puppy"); // puppy
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: Since "puppy" is non-boolean and is after && it will just return the string "puppy".
 
 //-------------------
 // FINAL CHECK
