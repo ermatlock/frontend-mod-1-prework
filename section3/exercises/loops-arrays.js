@@ -27,7 +27,7 @@ for (var i = 0; i < animals.length; i++) {
 
 // YOU DO: Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
-var food = ['broccoli', 'cauliflower', 'steak', 'mushrooms']
+var food = ['broccoli', 'cauliflower', 'steak', 'mushrooms'];
 
 for (var i = 0; i < food.length; i++) {
   console.log("Add " + food[i] + " to shopping list");
@@ -36,7 +36,7 @@ for (var i = 0; i < food.length; i++) {
 // YOU DO: Create an array of numbers and then iterate over that array to log double
 // of each of the number. (Ex: 4 doubled is 8.)
 for (var i = 0; i <= 10; i++) {
-  console.log(i * 2)
+  console.log(i * 2);
 };
 
 
@@ -66,4 +66,5 @@ if (ages[i] < 18) {
   console.log("Oh no, you can't vote quite yet.");
 } else {
   console.log("Make sure you get out and vote!")
-};};
+}
+};

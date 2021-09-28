@@ -15,7 +15,7 @@ if (doorChoice === 1) {
   bearClothing = "hat";
 } else {
   bearClothing = "scarf";
-}
+};
 
 console.log("You see a bear putting on a " + bearClothing);
 console.log("It looks like that " + bearClothing + " is too small for the bear, do you...");
@@ -32,7 +32,7 @@ if (bearChoice === 1) {
   console.log("You run as fast as you can into the next room. It's full of snakes!");
 } else {
   console.log("You stay with the bear and become it's best friend!");
-}
+};
 
 /*
 Questions

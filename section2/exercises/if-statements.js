@@ -29,7 +29,7 @@ if (weather == 'sunny') {
   console.log('yak traks');
 } else{
   console.log('good to go!');
-}
+};
 
 /*
 YOU DO:
@@ -53,7 +53,7 @@ if (dogAge <= 2) {
   console.log('elderly');
 } else{
   console.log ('adult');
-}
+};
 
 /*
 YOU DO:
@@ -80,7 +80,7 @@ console.log("I have enough money for a gumball");
 }
 else{
 console.log("I don't have enough money for a gumball");
-}
+};
 
 /*
 YOU DO:
@@ -101,15 +101,16 @@ var hasSauce = true;
 // Write your conditional here
 if ((cupsOfFlour > 1) && (hasSauce)) {
 console.log("I can make pizza.");
-} else{
-console.log("I cannot make pizza.")
-}
+} else {
+console.log("I cannot make pizza.");
+};
 
 
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
+
 I did use the logical operator on the "pizza" exercise. It allows for integrating
 a true/false test to the two variables to return the correct outcome. I used an &&
 operator because both variables need to be true in order to make a pizza.

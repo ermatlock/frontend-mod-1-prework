@@ -38,23 +38,25 @@
 
   In my Amazon.com shopping cart I have some items. Each item is an object similar to this:
 
-  `var myAwesomeItem = {
-    image: '/images/I/61kPTwmVWJL._AC_AA150_.jpg',
-    description: '24 Fineliner Color Pens Set, Taotree Fine Line Colored Sketch Writing Drawing Pens for Journal Planner Note Taking and Coloring Book, Porous Fine Point Pens Markers, Great for Art Crafts Scrapbooks';
-    priceUS: 8.69
-    soldBy: 'TaoTree'
-    quantity: 1
+  ```
+  var myAwesomeItem = {
+  image: '/images/I/61kPTwmVWJL._AC_AA150_.jpg',
+  description: '24 Fineliner Color Pens Set, Taotree Fine Line Colored Sketch Writing Drawing Pens for Journal Planner Note Taking and Coloring Book, Porous Fine Point Pens Markers, Great for Art Crafts Scrapbooks';
+  priceUS: 8.69
+  soldBy: 'TaoTree'
+  quantity: 1
 
   };
-    }`
-
+  ```
 
 2. What questions do you still have about classes and/or Objects?
   Going back to our class methods burrito exercise, we have:
 
-  `Constructor(protein, base, toppings) {
-    this.protein = protein;
-    this.base = base;
-    this.toppings = toppings;`
+  ```
+  Constructor(protein, base, toppings) {
+  this.protein = protein;
+  this.base = base;
+  this.toppings = toppings;
+  ```
 
     I do not entirely understand how the arguments in the constructor can map to the parameters, and be all named the same name without breaking the code.

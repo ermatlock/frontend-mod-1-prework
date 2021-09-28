@@ -21,7 +21,7 @@ class Tweet {
     this.numberOfLikes++;
   };
   addComment(addComment) {
-    this.comments.push(addComment)
+    this.comments.push(addComment);
   }
 
 };

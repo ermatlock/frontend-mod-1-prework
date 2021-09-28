@@ -154,6 +154,6 @@ var emails = [
   ccAddress: ['dmatlock@gmail.com'],
   sent: true
   }
-];
+]
 
 console.log(emails)

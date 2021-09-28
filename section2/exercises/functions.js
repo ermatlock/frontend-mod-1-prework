@@ -41,11 +41,11 @@ sayHello()
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 function greetMe(name) {
-console.log('Hello ' + name)
-}
-greetMe('Eric')
-greetMe('Emily')
-greetMe('John')
+console.log('Hello ' + name);
+};
+greetMe('Eric');
+greetMe('Emily');
+greetMe('John');
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
@@ -60,11 +60,11 @@ addNumbers(50, 200);
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
-var bff1 = "Starsky";
-var bff2 = "Hutch";
-var bestFriendsForever = `${bff1} and ${bff2} are BFFS`
-console.log(bestFriendsForever);
+function bestFriendsForever(bff1, bff2) {
+console.log(bff1 + " and " + bff2 + " are BFFS")
+};
 
+bestFriendsForever("Starsky", "Hutch");
 
 //-------------------
 // PART 3: Naming is Hard

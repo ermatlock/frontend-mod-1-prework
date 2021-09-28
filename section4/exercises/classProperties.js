@@ -18,7 +18,7 @@ Make sure to run the file with node in your command line.
 // Prompt 1: Dog
 class Dog {
 
-}
+};
 var chocolateLab = new Dog();
 var blackLab = new Dog();
 
@@ -28,7 +28,7 @@ console.log(blackLab);
 // Prompt 2: Snack
 class Snack {
 
-}
+};
 var trailMix = new Snack;
 var nugoBar = new Snack;
 
@@ -38,7 +38,7 @@ console.log(nugoBar);
 // Prompt 3: Shirt
 class Shirt {
 
-}
+};
 var buttonDown = new Shirt;
 var tee = new Shirt;
 
@@ -91,7 +91,7 @@ class ShirtState {
   this.sleeves = 'long';
   this.dressStyle = ['business', 'formal'];
   }
-}
+};
 var buttonDown = new ShirtState;
 
 console.log(buttonDown);
@@ -117,7 +117,7 @@ class DogDynamic {
     this.weightLbs = weightLbs;
   }
 
-}
+};
 var chocolateLab = new DogDynamic('brown', 24, 80);
 
 console.log(chocolateLab);
@@ -129,7 +129,7 @@ class SnackDynamic {
   this.consistency = consistency;
   }
 
-}
+};
 
 var trailMix = new SnackDynamic(true, true, ['crunchy, chewy']);
 
@@ -142,7 +142,7 @@ class ShirtDynamic {
   this.sleeves = sleeves;
   this.dressStyle = dressStyle;
   }
-}
+};
 var dressShirt = new ShirtDynamic(true, 'long', ['business', 'formal']);
 
 console.log(dressShirt);

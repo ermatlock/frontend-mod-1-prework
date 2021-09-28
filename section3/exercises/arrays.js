@@ -70,7 +70,7 @@ console.log(foods)
 
 // YOU DO: Remove the food that is in index position 0.
 foods.shift();
-console.log(foods)
+console.log(foods);
 
 
 //-------------------
